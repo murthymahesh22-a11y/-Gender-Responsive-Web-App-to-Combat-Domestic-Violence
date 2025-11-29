@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://murthymahesh22-a11y.github.io/-Gender-Responsive-Web-App-to-Combat-Domestic-Violence/sitemap.xml
