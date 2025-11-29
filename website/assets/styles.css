@@ -1,0 +1,18 @@
+/* Minimal styling for the slide deck */
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+.reveal h1 { font-size: 2.2rem; margin-bottom: 0.6rem; }
+.reveal h2 { font-size: 1.6rem; }
+.reveal h3 { font-size: 1.1rem; margin-top: 0.6rem; }
+.reveal p, .reveal li, .reveal dd { font-size: 1.05rem; line-height: 1.5; }
+.reveal ul { margin-top: 0.4rem; }
+.reveal dl dt { font-weight: 700; margin-top: 0.6rem; }
+.reveal dl dd { margin-left: 0; margin-bottom: 0.6rem; }
+
+/* Accessibility: ensure strong contrast */
+.reveal { color: #222; }
+
+/* Small screens adjustments */
+@media (max-width: 600px) {
+  .reveal h1 { font-size: 1.6rem; }
+  .reveal h2 { font-size: 1.2rem; }
+}
